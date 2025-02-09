@@ -6,7 +6,7 @@ export default function Testimonials() {
                 <p className="my-10 lg:mb-0 lg:text-2xl/relaxed">Our users have experienced remarkable improvements in their workflow and productivity thanks to our platform. </p>
                 <p className="lg:text-2xl/relaxed">We take pride in the positive feedback we receive from our community.  </p>
             </div>
-            <div className="p-3 rounded-2xl flex overflow-x-scroll bg-neutral lg:max-w-[70vw] mx-auto lg:space-x-4 space-x-8 my-10">
+            <div className="px-10 py-3 rounded-2xl flex overflow-x-scroll bg-neutral lg:max-w-[70vw] mx-auto lg:space-x-4 space-x-8 my-10">
                 <div className="carousel-item justify-between  flex shadow-lg shadow-slate-400 flex-col items-center h-[390px] lg:h-[420px]  lg:w-1/3 p-4 rounded-2xl">
                     <p className="text-7xl text-left w-full text-slate-600">"</p>
                     <p className="text-lg lg:text-[1.3rem] text-slate-500 w-[90vw] lg:w-full">I have been using this platform for a few months now and I am extremely satisfied with the results. The tools are easy to use and have helped me streamline my workflow. I highly recommend this platform to anyone looking to improve their productivity and efficiency.</p>
