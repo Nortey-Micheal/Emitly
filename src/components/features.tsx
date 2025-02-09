@@ -35,11 +35,11 @@ export default function Features() {
             </div>
             <div className="flex flex-col w-[100vw] -mx-5 flex-wrap max-w-[1500px] lg:flex-row gap-x-20 lg:mx-auto">
                 {features.map(feature => (
-                    <div className="items-center mb-20 shadow-lg shadow-blue-200 w-[95vw] mx-auto h-[350px] lg:w-[400px] rounded-2xl p-5 flex flex-col justify-between">
+                    <div className="items-center mb-20 shadow-lg shadow-blue-200 w-[95vw] mx-auto h-[350px] lg:h-[400px] lg:w-[400px] rounded-2xl p-5 flex flex-col justify-between">
                         <img className=" w-13 lg:w-17 aspect-square bg-blue-400 rounded-lg" src="/assets/icons/feature.svg" alt="" />
-                        <h4 className="font-bold text-lg">{feature.title}</h4>
-                        <p className="text-lg/snug text-center text-slate-700">{feature.description}</p>
-                        <a className="hover:underline decoration-2 text-blue-500 font-bold" href="">Get started</a>
+                        <h4 className="font-bold text-[1.4rem] lg:text-[1.65rem]">{feature.title}</h4>
+                        <p className="text-lg/snug lg:text-[1.3rem] text-center text-slate-700">{feature.description}</p>
+                        <a className="hover:underline lg:text-lg decoration-2 text-blue-500 font-bold" href="">Get started</a>
                     </div>
                 ))}
             </div>
