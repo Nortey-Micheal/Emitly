@@ -22,7 +22,7 @@ export default function Navbar() {
                             <li className="hover:bg-blue-800 rounded-lg"><a href="">Contact Us</a></li>
                         </ul>
                     </div>
-                    <button className="hover:cursor-pointer hover:border-3 px-6 rounded-3xl py-1 font-bold border-blue-400 btn-ghost text-xl">emitly</button>
+                    <button className="hover:cursor-pointer hover:border-3 px-2 lg:px-6 rounded-3xl py-1 font-bold border-blue-400 btn-ghost text-xl">emitly</button>
                 </div>
                 <div className="navbar-center text-slate-700 hidden lg:flex">
                     <ul className="menu menu-horizontal text-lg px-1">
@@ -40,8 +40,8 @@ export default function Navbar() {
                         <li className="hover:underline decoration-2 decoration-blue-400"><a href="">Contact Us</a></li>
                     </ul>
                 </div>
-                <div className="navbar-end flex gap-5">
-                    <button className="hover:cursor-pointer text-slate-800 hover:underline underline-offset-3 decoration-2 decoration-blue-400 rounded-4xl lg:px-6  lg:py-2 bg-blue-50  font-bold">Sign up</button>
+                <div className="navbar-end flex gap-2 lg:gap-5">
+                    <button className="hover:cursor-pointer text-slate-800 hover:underline underline-offset-3 decoration-2 decoration-blue-400 rounded-4xl px-2 lg:px-6  lg:py-2 bg-blue-50  font-bold">Sign up</button>
                     <button className="hover:cursor-pointer hover:bg-blue-100 hover:text-slate-800 py-1 lg:py-2 text-sm px-2 lg:px-6 font-bold bg-blue-400 text-blue-50 rounded-2xl lg:rounded-3xl">Get Started</button>
                 </div>
             </div>
