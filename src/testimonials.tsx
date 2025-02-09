@@ -1,6 +1,6 @@
 export default function Testimonials() {
     return (
-        <section className="container">
+        <section className="container mb-50">
             <div className="max-w-[1000px] text-lg text-center mx-auto">
                 <h5 className="text-4xl font-bold text-center">Testimonials</h5>
                 <p className="my-10 lg:mb-0 lg:text-2xl/relaxed">Our users have experienced remarkable improvements in their workflow and productivity thanks to our platform. </p>
