@@ -4,7 +4,7 @@ type PartnersProps = {
 
 export default function Partners({partners}:PartnersProps) {
     return (
-        <div className=" container flex flex-col lg:flex-row items-center justify-center pt-[200px] lg:py-[10px] ">
+        <div className="lg:px-5 container flex flex-col lg:flex-row items-center justify-center pt-[200px] lg:py-[10px] ">
             <div className="text-slate-500 lg:text-2xl">
                 <p className="font-bold">Our support partners</p>
                 <p>Over 30+ Partners</p>

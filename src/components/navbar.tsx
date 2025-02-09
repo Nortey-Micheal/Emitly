@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <nav className="bg-base-100 shadow-sm">
+        <nav className="sticky top-0 bg-blue-50 shadow-sm">
             <div className="container navbar ">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -41,7 +41,7 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="navbar-end flex gap-2 lg:gap-5">
-                    <button className="hover:cursor-pointer text-slate-800 hover:underline underline-offset-3 decoration-2 decoration-blue-400 rounded-4xl px-2 lg:px-6 py-1 lg:py-2 bg-blue-50  font-bold">Sign up</button>
+                    <button className="hover:cursor-pointer text-slate-800 hover:underline underline-offset-3 decoration-2 decoration-blue-400 rounded-4xl px-2 lg:px-6 py-1 lg:py-2 bg-blue-100  font-bold">Sign up</button>
                     <button className="hover:cursor-pointer hover:bg-blue-100 hover:text-slate-800 py-1 lg:py-2 text-sm px-2 lg:px-6 font-bold bg-blue-400 text-blue-50 rounded-2xl lg:rounded-3xl">Get Started</button>
                 </div>
             </div>

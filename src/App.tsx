@@ -1,3 +1,4 @@
+import Features from './components/features'
 import Hero from './components/hero'
 import Images from './components/images'
 import Navbar from './components/navbar'
@@ -30,6 +31,7 @@ function App() {
       <Images images={images}/>
       <Partners partners={partners}/>
       <WhoWeAre />
+      <Features />
     </>
   )
 }
