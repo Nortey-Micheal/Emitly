@@ -6,6 +6,7 @@ import Images from './components/images'
 import Navbar from './components/navbar'
 import Partners from './components/partners'
 import WhoWeAre from './components/whoweare'
+import Testimonials from './testimonials'
 
 function App() {
   const images = [
@@ -36,6 +37,7 @@ function App() {
       <Features />
       <Benefits />
       <Faq />
+      <Testimonials />
     </>
   )
 }
