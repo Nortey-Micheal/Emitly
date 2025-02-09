@@ -33,7 +33,7 @@ export default function Features() {
                 <p className="text-slate-800">Here are the frequently asked questions from our friends and customers.</p>
                 <p className="text-slate-800">Look through to get insight on how we can serve you better.</p>
             </div>
-            <div className="flex flex-col w-[100vw]  -mx-5 flex-wrap max-w-[1300px] lg:flex-row lg:mx-auto">
+            <div className="flex flex-col w-[100vw] md:w-[90vw]  -mx-5 flex-wrap max-w-[1300px] lg:flex-row lg:mx-auto">
                 {features.map(feature => (
                     <div className="items-center mb-20 shadow-lg shadow-blue-200 w-[95vw] mx-auto h-[330px] lg:h-[400px] lg:w-[400px] rounded-2xl p-5 flex flex-col justify-between">
                         <img className=" w-13 lg:w-17 aspect-square bg-blue-400 rounded-lg" src="/assets/icons/feature.svg" alt="" />
