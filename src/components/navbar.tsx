@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-        <nav className="sticky top-0 bg-blue-50 shadow-sm">
+        <nav className="sticky z-10 top-0 bg-blue-50 shadow-sm">
             <div className="container navbar ">
                 <div className="navbar-start">
                     <div className="dropdown">

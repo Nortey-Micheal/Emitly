@@ -1,3 +1,4 @@
+import Benefits from './components/benefits'
 import Features from './components/features'
 import Hero from './components/hero'
 import Images from './components/images'
@@ -32,6 +33,7 @@ function App() {
       <Partners partners={partners}/>
       <WhoWeAre />
       <Features />
+      <Benefits />
     </>
   )
 }
