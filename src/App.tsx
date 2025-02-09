@@ -1,4 +1,5 @@
 import Benefits from './components/benefits'
+import Faq from './components/faq'
 import Features from './components/features'
 import Hero from './components/hero'
 import Images from './components/images'
@@ -34,6 +35,7 @@ function App() {
       <WhoWeAre />
       <Features />
       <Benefits />
+      <Faq />
     </>
   )
 }
