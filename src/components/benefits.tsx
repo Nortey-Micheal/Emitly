@@ -6,10 +6,10 @@ export default function Benefits() {
                 <p className="mb-5">Our platform offers unparalleled efficiency and reliability, ensuring that your operations run smoothly and without interruption. With state-of-the-art technology and a user-friendly interface, you can easily manage your tasks and achieve your goals.</p>
     
             </div>
-            <div className="card card-side container flex flex-col  lg:flex-row rounded-2xl shadow-blue-400 shadow-sm">
+            <div className="card card-side container flex flex-col lg:flex-row rounded-2xl shadow-sm">
                 <figure>
                     <img
-                    className=" h-[300px] lg:w-9/2 lg:h-[620px] lg:im"
+                    className=" h-[300px] lg:w-9/2 lg:h-[620px] rounded-2xl"
                     src="/assets/images/finApp.gif"
                     alt="Movie" />
                 </figure>
@@ -46,6 +46,35 @@ export default function Benefits() {
                         </ul>
                     </div>
                 </div>
+            </div>
+
+            <div className="card card-side container flex flex-col-reverse my-[100px] lg:flex-row rounded-2xl  shadow-sm">
+                <div className="card-body gap-7 lg:w-6/5 lg:gap-y-0">
+                    <h2 className="card-title text-2xl lg:text-4xl pb-5">Clear information and course up-to-date</h2>
+                    <p className="text-lg/relaxed grow-0 mb-10 h-fit text-[20px] lg:text-[1.3rem] text-slate-800">Stay informed with our platform's clear and up-to-date information. Access the latest data and updates to make well-informed decisions and stay ahead in your field.</p>
+                    
+                    <div className=" h-1/3  flex flex-col  rounded-2xl justify-between -mx-5 lg:mx-0 w-[90vw] lg:w-full">
+                        <div className="flex items-center gap-5 mb-5">
+                            <img className="bg-blue-400 self-start mt-2 lg:self-center rounded-full w-[30px]" src="/assets/icons/check.svg" alt="" />
+                            <p className="text-[1.1rem] font-semibold text-slate-600">Receive timely notifications and updates to keep you informed about the latest developments.</p>
+                        </div>
+                        <div className="flex items-center gap-5 mb-5">
+                            <img className="bg-blue-400 rounded-full mt-2 self-start lg:self-center w-[30px]" src="/assets/icons/check.svg" alt="" />
+                            <p className="text-[1.1rem] font-semibold text-slate-600">Access comprehensive resources and guides to help you navigate and utilize the platform effectively.</p>
+                        </div>
+                        <div className="flex items-center gap-5">
+                            <img className="bg-blue-400 self-start lg:self-center mt-2 rounded-full w-[30px]" src="/assets/icons/check.svg" alt="" />
+                            <p className="text-[1.1rem] font-semibold text-slate-600">Stay ahead with our continuous improvements and feature updates tailored to your needs.</p>
+                        </div>
+                    </div>
+                    <button className="bg-blue-400 w-fit px-8 py-2 rounded-3xl hover:bg-blue-100 hover:text-blue-500 text-blue-50 font-bold text-[1.3rem] lg:mt-16">Explore</button>
+                </div>
+                <figure>
+                    <img
+                    className=" h-[300px] rounded-2xl  lg:h-[620px] "
+                    src="/assets/images/laptop1.webp"
+                    alt="Movie" />
+                </figure>
             </div>
         </div>
     )
