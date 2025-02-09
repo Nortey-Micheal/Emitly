@@ -27,7 +27,7 @@ export default function Features() {
     ]
 
     return (
-        <div className="container w-[90vw]">
+        <div className="container w-[90vw] pb-[200px]">
             <div className="text-center text-lg/relaxed lg:text-2xl/relaxed mb-15">
                 <h3 className="text-3xl lg:text-4xl mb-8 font-bold">Emitly Features</h3>
                 <p className="text-slate-800">Here are the frequently asked questions from our friends and customers.</p>
