@@ -17,7 +17,7 @@ export default function Benefits() {
                     <h2 className="card-title text-2xl lg:text-4xl pb-5">Manage your finance digitally in on Plateform</h2>
                     <p className="text-lg/relaxed text-[20px] lg:text-[1.3rem] text-slate-800">Our platform simplifies financial management by providing intuitive tools and real-time insights. Stay on top of your finances with ease and make informed decisions to achieve your financial goals.</p>
                     <div className="card-actions rounded-2xl justify-end -mx-5 lg:mx-0 w-[90vw] lg:w-full">
-                        <ul className="list rounded-2xl w-full shadow-md">                            
+                        <ul className="list rounded-2xl w-full ">                            
                             <li className="list-row items-center hover:bg-blue-500 hover:text-blue-50 rounded-2xl">
                                 <div><img className="size-10 rounded-box" src="/assets/icons/metaverse.png"/></div>
                                 <div>
