@@ -21,6 +21,16 @@ export default function Faq() {
                     <div className="collapse-title font-semibold text-[1.2rem]">How do I update my profile information?</div>
                     <div className="collapse-content">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
                 </div>
+                <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title font-semibold text-[1.2rem]">How can I contact support?</div>
+                    <div className="collapse-content">You can contact our support team via the "Contact Us" page or by emailing support@ourplatform.com.</div>
+                </div>
+                <div className="collapse collapse-arrow bg-base-100 border border-base-300">
+                    <input type="radio" name="my-accordion-2" />
+                    <div className="collapse-title font-semibold text-[1.2rem]">Is there a mobile app available?</div>
+                    <div className="collapse-content">Yes, our mobile app is available for both iOS and Android devices. You can download it from the App Store or Google Play.</div>
+                </div>
             </div>
         </div>
     )
