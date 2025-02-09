@@ -1,7 +1,7 @@
 export default function Navbar() {
     return (
         <nav className="bg-base-100 shadow-sm">
-            <div className="max-w-[1300px] mx-auto navbar ">
+            <div className="container navbar ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

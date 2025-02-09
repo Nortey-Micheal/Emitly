@@ -2,6 +2,7 @@ import Hero from './components/hero'
 import Images from './components/images'
 import Navbar from './components/navbar'
 import Partners from './components/partners'
+import WhoWeAre from './components/whoweare'
 
 function App() {
   const images = [
@@ -28,6 +29,7 @@ function App() {
       <Hero />
       <Images images={images}/>
       <Partners partners={partners}/>
+      <WhoWeAre />
     </>
   )
 }
